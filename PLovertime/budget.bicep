@@ -4,6 +4,7 @@ targetScope = 'subscription'
 // .\budget.bicep --parameters budgetName=TestBicepBu startDate=2022-12-01 endDate=2023-12-31
 // contactEmails=$myContactEmails -c
 
+
 @description('Name of the Budget. It should be unique within a resource group.')
 param budgetName string
 
